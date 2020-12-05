@@ -5,9 +5,9 @@ class Bob
         var options = 
         {
             isStatic: false,
-            restitution: 1.3,
-            friction: 10,
-            density: 2
+            restitution: 1.1,
+            friction: 1,
+            density: 0.7
         }
 
         this.body = Bodies.circle(x, y, radius, options);
